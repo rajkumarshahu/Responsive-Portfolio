@@ -26,10 +26,10 @@ body {
 }
 
 .main-header-col1 {
-    width: 50%;
+    width: 35%;
 }
 .main-nav {
-    width: 50%;
+    width: 65%;
     text-align: right;
 }
 
@@ -186,6 +186,7 @@ input[type=text], select {
 
   .main-image-container{
       display: flex;
+      flex-wrap: wrap;
       width: 100%;
       padding: 20px;
       box-sizing: border-box;
@@ -211,7 +212,7 @@ input[type=text], select {
  /*
  media queries starts here
  */
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 640px){
     .main-header-col1{
         display: block;
         width: 100%;
@@ -219,10 +220,12 @@ input[type=text], select {
     .main-header-col1 a{
         display: block;
         text-align: center;
+
     }
     .main-nav{
         width:100%;
         text-align:center;
+        margin-top: 15px;
     }
     .main-header-content{
         width:100%;
@@ -235,13 +238,43 @@ input[type=text], select {
     .content{
         width:80%;
     }
+
+    .main-image-container{
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .image-container__col {
+        width: 290px;
+        height: 290px;
+        border: #cccccc solid 2px;
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+
+    #second-col{
+        margin-top: 0px;
+        padding-top:0px;
+    }
 }
 
-@media only screen and (min-width: 640px) and (max-width: 767px){
+@media only screen and (min-width: 641px) and (max-width: 768px){
+
+    .content{
+        width:85%;
+
+    }
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 979px){
+@media only screen and (min-width: 769px) and (max-width: 980px){
+    .content{
+        width:85%;
+
+    }
 
 }
 @media only screen and (min-width: 980px){
