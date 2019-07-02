@@ -79,11 +79,11 @@ h1 {
 }
 
 .content {
-    width: 960px;
     background-color: white;
     padding: 20px;
-    margin: 20px auto 150px auto;
     border: 1px solid #dddddd;
+    width: 540px;
+    margin: 20px auto 150px auto;
 }
 p {
     padding-bottom: 15px;
@@ -175,11 +175,13 @@ input[type=text], select {
     left: 40%;
     transform: translate(-50%, -50%);
     background: #4aaaa5;
-    padding: 7px;
+    padding: 10px 7px 7px 7px;
     margin: 20px;
     color:white;
     text-transform: uppercase;
     font-size: 15px;
+    width: 200px;
+    height: 40px;
   }
 
 
@@ -236,47 +238,78 @@ input[type=text], select {
         display:block;
     }
     .content{
-        width:80%;
+        width:85%;
     }
 
     .main-image-container{
         display: block;
-        width: 50%;
-        height: auto;
-        margin: auto;
-
+        width: 100%;
     }
+
 
     .image-container__col {
-        width: 290px;
-        height: 290px;
-        border: #cccccc solid 2px;
-        margin-left: 35px;
+        margin: auto;
         margin-bottom: 20px;
-    }
+        align-self: center;
 
-    #second-col{
-        margin-top: 0px;
-        padding-top:0px;
     }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px){
+    .main-image-container{
+        display: block;
+        text-align: center;
+    }
 
-    .content{
-        width:85%;
+    .image-container__col {
+        display: inline-block;
+        margin:3px;
+        width: 235px;
+    }
 
+    .image{
+        width:100%;
+        height:auto;
+        max-width: 235px;
     }
 
 }
 
 @media only screen and (min-width: 769px) and (max-width: 980px){
-    .content{
-        width:85%;
-
+    .main-image-container{
+        display: block;
     }
+
+    .image-container__col {
+        display: inline-block;
+        margin:3px;
+        width: 235px;
+    }
+
+    .image{
+        width:100%;
+        height:auto;
+        max-width: 235px;
+    }
+
+
 
 }
 @media only screen and (min-width: 980px){
 
+    .main-image-container{
+        display: block;
+    }
+
+    .image-container__col {
+        display: inline-block;
+        margin:3px;
+        width: 235px;
+    }
+
+    .image{
+        width:100%;
+        height:auto;
+        max-width: 235px;
+    }
 }
