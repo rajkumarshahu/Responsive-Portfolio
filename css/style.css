@@ -265,6 +265,7 @@ input[type=text], select {
         display: inline-block;
         margin:3px;
         width: 235px;
+        height: 240px;
     }
 
     .image{
@@ -276,6 +277,11 @@ input[type=text], select {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 980px){
+    .content {
+        margin: 20px auto 150px 73px;
+    }
+
+
     .main-image-container{
         display: block;
     }
@@ -296,6 +302,10 @@ input[type=text], select {
 
 }
 @media only screen and (min-width: 980px){
+
+    .content {
+        margin: 20px auto 150px 73px;
+    }
 
     .main-image-container{
         display: block;
