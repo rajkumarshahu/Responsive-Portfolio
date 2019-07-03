@@ -308,6 +308,10 @@ input[type=text], select {
         margin: 20px auto 150px 73px;
     }
 
+    .main-header-content {
+        margin: 20px;
+    }
+
     .main-image-container{
         display: block;
     }
