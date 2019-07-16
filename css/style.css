@@ -62,7 +62,6 @@ body {
     border-bottom: 5px solid orange;
 }
 
-
 .main-header-col1 a:hover{
     border-bottom: 5px solid orange;
 }
@@ -87,7 +86,7 @@ h1 {
 }
 p {
     padding-bottom: 15px;
-    }
+}
 
 .main-header-content {
     width: 960px;
