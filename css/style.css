@@ -126,7 +126,7 @@ footer{
     width: 100%;
 }
 
-input[type=text], select {
+input[type=text], input[type=email], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -151,7 +151,7 @@ input[type=text], select {
       padding: 20px;
   }
 
-  button{
+  #email-submit-btn{
       background-color: #4aaaa5;
       padding: 15px;
       width: 150px;
@@ -209,6 +209,7 @@ input[type=text], select {
     color: #666666;
     border-bottom: orange solid 3px;
  }
+
 
  /*
  media queries starts here
