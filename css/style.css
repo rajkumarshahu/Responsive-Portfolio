@@ -29,8 +29,9 @@ body {
     width: 35%;
 }
 .main-nav {
-    width: 65%;
-    text-align: right;
+    width: 60%;
+
+    margin: auto;
 }
 
 .main-nav__items {
@@ -66,10 +67,19 @@ body {
     border-bottom: 5px solid orange;
 }
 
+.main-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .main-image-container a:hover {
     color: rgb(0, 255, 136);
     border-bottom: 5px solid orange;
 }
+
 
 h1 {
     color: #4aaaa5;
@@ -81,7 +91,7 @@ h1 {
     background-color: white;
     padding: 20px;
     border: 1px solid #dddddd;
-    width: 540px;
+    width: 75%;
     margin: 20px auto 150px auto;
 }
 p {
@@ -161,11 +171,7 @@ input[type=text], input[type=email], select {
       box-shadow: 2px 2px #a3dad8;
   }
 
- .image-container{
-    position: relative;
-    text-align: left;
-    color: white;
- }
+
 
  .text {
     position: relative;
@@ -185,13 +191,7 @@ input[type=text], input[type=email], select {
 
 
 
-  .main-image-container{
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-  }
+
 
   .image-container__col{
       width: 290px;
@@ -227,7 +227,7 @@ input[type=text], input[type=email], select {
     .main-nav{
         width:100%;
         text-align:center;
-        margin-top: 15px;
+        margin: 15px 0 0 5px;
     }
     .main-header-content{
         width:100%;
@@ -298,13 +298,15 @@ input[type=text], input[type=email], select {
         max-width: 235px;
     }
 
-
+    .text {
+        top: 0%;
+      }
 
 }
 @media only screen and (min-width: 980px){
 
     .content {
-        width: 768px;
+        width: 80%;
         margin: 20px auto 150px 73px;
     }
 
@@ -312,14 +314,21 @@ input[type=text], input[type=email], select {
         margin: 20px;
     }
 
-    .main-image-container{
-        display: block;
+    .main-nav {
+        width: 100%;
+        text-align: right;
+
     }
+
+
+    /* .main-image-container{
+        display: block;
+    } */
 
     .image-container__col {
         display: inline-block;
-        margin:3px;
-        width: 235px;
+        margin-left: 20px;
+        width: 220px;
     }
 
     .image{
@@ -327,4 +336,8 @@ input[type=text], input[type=email], select {
         height:auto;
         max-width: 235px;
     }
+
+    .text {
+        top: 0%;
+      }
 }
