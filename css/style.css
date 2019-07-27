@@ -244,18 +244,13 @@ input[type=text], input[type=email], select {
         width: 100%;
     }
 
-
     .image-container__col {
         margin: auto;
         margin-bottom: 20px;
         align-self: center;
 
     }
-    footer{
 
-        position: unset;
-
-    }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px){
