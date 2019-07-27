@@ -54,7 +54,7 @@
     <main class="content">
       <h1>Contact</h1>
       <hr />
-      <form id="contact-form" action="https://formspree.io/rajkumarshahu@gmail.com" method="POST" >
+      <form id="contact-form" method="POST" >
 
         <label for="name">Name:</label>
         <input type="text" name="name" id="inputName" placeholder="John Smith" required />
@@ -62,9 +62,13 @@
         <input type="email" name="_replyto" id="inputEmail" placeholder="example@gmail.com" required />
         <label for="message">Message:</label>
         <textarea name="message" id="inputMessage" placeholder="Your message here..."></textarea>
-        <input type="hidden" name="_next" value="https://rajkumarshahu.github.io/Responsive-Portfolio/thank-you.html"/>
+        <input type="text" name="_gotcha" style="display:none" />
         <input id="email-submit-btn" type="submit" value="Send">
       </form>
+      <script>
+        var contactform =  document.getElementById('contact-form');
+        contactform.setAttribute('action', '//formspree.io/' + 'rajkumarshahu' + '@' + 'gmail' + '.' + 'com');
+    </script>
     </main>
     <div class="clearfx"></div>
     <footer>
