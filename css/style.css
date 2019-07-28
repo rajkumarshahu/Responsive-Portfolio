@@ -93,8 +93,8 @@ h1 {
     background-color: white;
     padding: 20px;
     border: 1px solid #dddddd;
-    width: 75%;
-    margin: 20px auto 150px auto;
+    width: 85%;
+    margin: auto;
 }
 p {
     padding-bottom: 15px;
@@ -239,9 +239,8 @@ input[type=text], input[type=email], select {
     }
     .content{
         width:95%;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
-
 
 }
 
@@ -352,7 +351,7 @@ input[type=text], input[type=email], select {
 @media only screen and (min-width: 980px){
 
     .content {
-        width: 80%;
+        width: 90%;
         margin: 20px auto 150px 73px;
     }
 
