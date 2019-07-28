@@ -238,7 +238,7 @@ input[type=text], input[type=email], select {
 
     }
     .content{
-        width:100%;
+        width:95%;
         margin-bottom: 50px;
     }
 
@@ -323,7 +323,7 @@ input[type=text], input[type=email], select {
 
 @media only screen and (min-width: 769px) and (max-width: 980px){
     .content {
-        width:100%;
+        width:90%;
         margin: auto;
         margin-bottom: 150px;
     }
